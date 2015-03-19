@@ -12,3 +12,6 @@ $ git push heroku master
 $ heroku run bash
 ~ $ vim.nox test.txt
 ```
+
+## Todo
+- update-alternatives
