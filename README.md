@@ -8,10 +8,15 @@ $ heroku buildpack:set https://github.com/heroku/heroku-buildpack-multi.git
 $ git push heroku master
 ```
 
-To play aroud, you may sometimes hhave to do the following:
+To play aroud, you may sometimes have to do the following:
 
 ```
 $ heroku config:unset BUILDPACK_URL
+```
+
+```
+$ git rm .buildpacks
+$ git commit
 ```
 
 ```
